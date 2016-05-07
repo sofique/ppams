@@ -1,0 +1,23 @@
+﻿#container {
+}
+#header
+{
+	height: 30px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: xx-large;
+}
+#sidebar {
+    float:left;
+    min-height:300px;
+}
+#content {
+ 
+}
+
+
+
+#footer {
+    clear:both;
+    text-align: center;
+}

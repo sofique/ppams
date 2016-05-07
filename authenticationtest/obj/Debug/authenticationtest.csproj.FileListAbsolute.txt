@@ -1,0 +1,5 @@
+C:\Users\BN-10\Documents\Visual Studio 2008\Projects\authenticationtest\authenticationtest\bin\authenticationtest.dll
+C:\Users\BN-10\Documents\Visual Studio 2008\Projects\authenticationtest\authenticationtest\bin\authenticationtest.pdb
+C:\Users\BN-10\Documents\Visual Studio 2008\Projects\authenticationtest\authenticationtest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\BN-10\Documents\Visual Studio 2008\Projects\authenticationtest\authenticationtest\obj\Debug\authenticationtest.dll
+C:\Users\BN-10\Documents\Visual Studio 2008\Projects\authenticationtest\authenticationtest\obj\Debug\authenticationtest.pdb

@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="authenticationtest.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="customStyle/sitestyle.css" rel="stylesheet" type="text/css" />
+    
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            Welcome To My Site
+        </div>
+        <div id="logout" style="text-align: right">
+            <asp:LinkButton ID="btnLogout" runat="server" OnClick="btnLogout_Click">Logout</asp:LinkButton>
+        </div>
+        <div id="sidebar">
+            <asp:TreeView ID="TreeView1" runat="server">
+                <Nodes>
+                    <asp:TreeNode NavigateUrl="~/CreateUser.aspx" Text="create user" 
+                        Value="create user"></asp:TreeNode>
+                    <asp:TreeNode NavigateUrl="~/resetpassword.aspx" Text="Reset User Password" 
+                        Value="Reset User Password"></asp:TreeNode>
+                </Nodes>
+            </asp:TreeView>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            copyrigth@2016
+        </div>
+    </div>
+    </form>
+</body>
+</html>
